@@ -1,0 +1,287 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Bali & Labuan Bajo Travel</title>
+  <meta name="description" content="Paket wisata Bali & Labuan Bajo - paket populer, live on board, one day trip Komodo, honeymoon.">
+  <style>
+    :root{
+      --primary:#0FB9B1;
+      --ocean:#0984E3;
+      --sun:#FF6B6B;
+      --gold:#FDCB6E;
+      --bg:#F5F6FA;
+      --muted:#6b7280;
+      --maxw:1100px;
+      --radius:10px;
+      font-family: Inter, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+    }
+    *{box-sizing:border-box}
+    body{margin:0;background:linear-gradient(180deg,#ffffff 0%, #f8fbfb 100%);color:#111}
+    .container{max-width:var(--maxw);margin:0 auto;padding:24px}
+    header{background:#fff;box-shadow:0 6px 18px rgba(12,15,20,0.06);position:sticky;top:0;z-index:50}
+    .nav{display:flex;align-items:center;justify-content:space-between;padding:12px 24px}
+    .brand{display:flex;align-items:center;gap:12px}
+    .brand .logo{width:46px;height:46px;border-radius:8px;background:linear-gradient(135deg,var(--primary),var(--ocean));display:flex;align-items:center;justify-content:center;color:#fff;font-weight:700}
+    nav ul{display:flex;gap:12px;list-style:none;margin:0;padding:0}
+    nav a{color:#111;text-decoration:none;padding:8px 12px;border-radius:8px}
+    nav a.cta{background:var(--gold);color:#111}
+    .hero{display:grid;grid-template-columns:1fr 420px;gap:24px;align-items:center;padding:48px 0}
+    .hero .lead{padding:12px}
+    h1{font-size:32px;margin:0 0 8px}
+    p.lead{color:var(--muted);margin:0 0 16px}
+    .btn{display:inline-block;padding:10px 16px;border-radius:8px;text-decoration:none;font-weight:600}
+    .btn.primary{background:var(--ocean);color:#fff}
+    .btn.gold{background:var(--gold);color:#111}
+    .features{display:flex;gap:12px;margin:24px 0}
+    .feature{background:#fff;padding:12px;border-radius:12px;flex:1;box-shadow:0 4px 14px rgba(12,15,20,0.06)}
+    .cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:16px;margin:18px 0}
+    .card{background:#fff;border-radius:12px;overflow:hidden;box-shadow:0 8px 24px rgba(12,15,20,0.06)}
+    .card img{width:100%;height:160px;object-fit:cover;display:block}
+    .card .info{padding:12px}
+    .section{padding:36px 0}
+    .two-col{display:grid;grid-template-columns:1fr 420px;gap:24px;align-items:start}
+    .gallery{display:grid;grid-template-columns:repeat(3,1fr);gap:8px}
+    .gallery img{width:100%;height:120px;object-fit:cover;border-radius:8px}
+    .testimoni{display:flex;gap:12px;overflow:auto;padding-bottom:8px}
+    .testimonial{min-width:280px;background:#fff;padding:16px;border-radius:12px;box-shadow:0 4px 16px rgba(12,15,20,0.06)}
+    footer{padding:28px 0;background:#fff;margin-top:24px;border-top:1px solid #eee}
+    form input, form textarea, form select{width:100%;padding:10px;border-radius:8px;border:1px solid #e6e9ef;margin-bottom:10px}
+    @media(max-width:900px){
+      .hero,.two-col{grid-template-columns:1fr}
+      nav ul{display:none}
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container nav">
+      <div class="brand">
+        <div class="logo">TB</div>
+        <div>
+          <div style="font-weight:700">Bali & Labuan Bajo Travel</div>
+          <div style="font-size:12px;color:var(--muted)">Your Journey, Our Passion</div>
+        </div>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#bali">Paket Bali</a></li>
+          <li><a href="#labuan-bajo">Paket Labuan Bajo</a></li>
+          <li><a href="#galeri">Galeri</a></li>
+          <li><a href="#testimoni">Testimoni</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a class="cta" href="#contact">Booking</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container" id="home">
+    <section class="hero section" aria-label="hero">
+      <div class="lead">
+        <h1>Explore Bali & Labuan Bajo — Your Dream Adventure Starts Here</h1>
+        <p class="lead">Nikmati pengalaman liburan yang nyaman, aman, dan berkesan bersama paket wisata terbaik ke Bali dan Labuan Bajo. Itinerary fleksibel, guide profesional, harga transparan.</p>
+        <div style="display:flex;gap:10px;flex-wrap:wrap">
+          <a class="btn primary" href="#bali">Lihat Paket Bali</a>
+          <a class="btn gold" href="#labuan-bajo">Lihat Paket Labuan Bajo</a>
+          <a class="btn" href="#contact" style="border:1px solid #e6e9ef">Hubungi Kami</a>
+        </div>
+
+        <div class="features" style="margin-top:20px">
+          <div class="feature">
+            <strong>Harga Transparan</strong>
+            <div style="color:var(--muted);font-size:13px">Tanpa biaya tersembunyi</div>
+          </div>
+          <div class="feature">
+            <strong>Guide Berpengalaman</strong>
+            <div style="color:var(--muted);font-size:13px">Lokal & bersertifikat</div>
+          </div>
+          <div class="feature">
+            <strong>Akomodasi Nyaman</strong>
+            <div style="color:var(--muted);font-size:13px">Hotel dan kapal terpilih</div>
+          </div>
+        </div>
+      </div>
+
+      <div style="border-radius:12px;overflow:hidden;box-shadow:0 10px 30px rgba(12,15,20,0.08)">
+        <img alt="Padar Island" src="https://images.unsplash.com/photo-1549880338-65ddcdfd017b?q=80&w=1200&auto=format&fit=crop&ixlib=rb-4.0.3&s=placeholder" style="width:100%;height:420px;object-fit:cover;display:block">
+      </div>
+    </section>
+
+    <section id="bali" class="section">
+      <h2>Paket Wisata Bali</h2>
+      <p style="color:var(--muted)">Pilih paket yang sesuai: city tour, cultural, honeymoon, atau private trip.</p>
+
+      <div class="cards">
+        <article class="card">
+          <img alt="Tanah Lot" src="https://images.unsplash.com/photo-1508261303890-4d7f3f9f6b7b?q=80&w=1600&auto=format&fit=crop&ixlib=rb-4.0.3&s=placeholder">
+          <div class="info">
+            <h3>Bali 3 Hari 2 Malam</h3>
+            <div style="color:var(--muted)">Rp 1.900.000 / pax</div>
+            <p style="margin:8px 0;color:var(--muted);font-size:14px">Tanah Lot, Bedugul, Handara Gate, Uluwatu Sunset. Hotel, transport, guide, tiket masuk.</p>
+            <a class="btn primary" href="#contact">Booking Sekarang</a>
+          </div>
+        </article>
+
+        <article class="card">
+          <img alt="Lempuyang" src="https://images.unsplash.com/photo-1544025162-d76694265947?q=80&w=1600&auto=format&fit=crop&ixlib=rb-4.0.3&s=placeholder">
+          <div class="info">
+            <h3>Bali 4 Hari 3 Malam</h3>
+            <div style="color:var(--muted)">Rp 2.800.000 / pax</div>
+            <p style="margin:8px 0;color:var(--muted);font-size:14px">Lempuyang, Tirta Gangga, Tegalalang, Kintamani, Ubud.</p>
+            <a class="btn gold" href="#contact">Detail & Pesan</a>
+          </div>
+        </article>
+
+        <article class="card">
+          <img alt="Honeymoon Villa" src="https://images.unsplash.com/photo-1505691723518-36a574b6a7f3?q=80&w=1600&auto=format&fit=crop&ixlib=rb-4.0.3&s=placeholder">
+          <div class="info">
+            <h3>Honeymoon Special</h3>
+            <div style="color:var(--muted)">Mulai Rp 3.500.000</div>
+            <p style="margin:8px 0;color:var(--muted);font-size:14px">Villa private pool, romantic dinner, photo couple, dekorasi.</p>
+            <a class="btn primary" href="#contact">Pesan Honeymoon</a>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+    <section id="labuan-bajo" class="section">
+      <h2>Paket Wisata Labuan Bajo</h2>
+      <p style="color:var(--muted)">Pilihan paket: one day trip, live on board, private trip.</p>
+
+      <div class="cards">
+        <article class="card">
+          <img alt="Padar Island" src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?q=80&w=1600&auto=format&fit=crop&ixlib=rb-4.0.3&s=placeholder">
+          <div class="info">
+            <h3>One Day Trip Komodo</h3>
+            <div style="color:var(--muted)">Rp 1.300.000 / pax</div>
+            <p style="margin:8px 0;color:var(--muted);font-size:14px">Padar, Pink Beach, Pulau Komodo, Manta Point. Speedboat, ranger, makan siang.</p>
+            <a class="btn gold" href="#contact">Pesan Sekarang</a>
+          </div>
+        </article>
+
+        <article class="card">
+          <img alt="Live on Board" src="https://images.unsplash.com/photo-1516483638261-f4dbaf036963?q=80&w=1600&auto=format&fit=crop&ixlib=rb-4.0.3&s=placeholder">
+          <div class="info">
+            <h3>Live on Board 3 Hari 2 Malam</h3>
+            <div style="color:var(--muted)">Mulai Rp 3.900.000</div>
+            <p style="margin:8px 0;color:var(--muted);font-size:14px">Padar Sunrise, Pink Beach, Gili Lawa, Siaba, Kalong Sunset. Kapal phinisi, kabin AC, 7x meals.</p>
+            <a class="btn primary" href="#contact">Booking Live on Board</a>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+    <section id="galeri" class="section">
+      <h2>Galeri</h2>
+      <div class="gallery" aria-hidden="false">
+        <img alt="Padar" src="https://images.unsplash.com/photo-1501785888041-af3ef285b470?q=80&w=800&auto=format&fit=crop&ixlib=rb-4.0.3&s=placeholder">
+        <img alt="Pink Beach" src="https://images.unsplash.com/photo-1441974231531-c6227db76b6e?q=80&w=800&auto=format&fit=crop&ixlib=rb-4.0.3&s=placeholder">
+        <img alt="Komodo" src="https://images.unsplash.com/photo-1545235617-9465a0a0a2f9?q=80&w=800&auto=format&fit=crop&ixlib=rb-4.0.3&s=placeholder">
+        <img alt="Uluwatu" src="https://images.unsplash.com/photo-1477587458883-47145ed94245?q=80&w=800&auto=format&fit=crop&ixlib=rb-4.0.3&s=placeholder">
+        <img alt="Tegalalang" src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?q=80&w=800&auto=format&fit=crop&ixlib=rb-4.0.3&s=placeholder">
+        <img alt="Kelingking" src="https://images.unsplash.com/photo-1501594907352-04cda38ebc29?q=80&w=800&auto=format&fit=crop&ixlib=rb-4.0.3&s=placeholder">
+      </div>
+    </section>
+
+    <section id="testimoni" class="section">
+      <h2>Testimoni</h2>
+      <div class="testimoni">
+        <div class="testimonial">
+          <div style="font-weight:700">Deni, Jakarta</div>
+          <div style="color:var(--muted);font-size:13px">⭐️⭐️⭐️⭐️⭐️</div>
+          <p style="margin-top:8px;color:var(--muted)">Trip rapi, kapal bersih, guide ramah. Sangat direkomendasikan!</p>
+        </div>
+        <div class="testimonial">
+          <div style="font-weight:700">Maria, Surabaya</div>
+          <div style="color:var(--muted);font-size:13px">⭐️⭐️⭐️⭐️</div>
+          <p style="margin-top:8px;color:var(--muted)">Harganya murah tapi pelayanan premium.</p>
+        </div>
+        <div class="testimonial">
+          <div style="font-weight:700">Fajar, Bandung</div>
+          <div style="color:var(--muted);font-size:13px">⭐️⭐️⭐️⭐️⭐️</div>
+          <p style="margin-top:8px;color:var(--muted)">Sunset di Labuan Bajo luar biasa! Makasih tim.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section two-col">
+      <div>
+        <h2>Tentang Kami</h2>
+        <p style="color:var(--muted)">Kami adalah penyedia jasa perjalanan wisata ke Bali & Labuan Bajo dengan pengalaman lebih dari 3 tahun. Menyediakan paket berkualitas, guide profesional, serta layanan aman dan nyaman untuk semua wisatawan.</p>
+
+        <h3 style="margin-top:18px">Visi</h3>
+        <p style="color:var(--muted)">Menjadi pilihan utama untuk perjalanan wisata ke Bali & Labuan Bajo.</p>
+
+        <h3 style="margin-top:12px">Misi</h3>
+        <ul style="color:var(--muted)">
+          <li>Memberikan pelayanan ramah & profesional</li>
+          <li>Menyediakan harga yang transparan</li>
+          <li>Menciptakan pengalaman liburan yang tak terlupakan</li>
+        </ul>
+      </div>
+
+      <aside style="background:#fff;padding:16px;border-radius:12px;box-shadow:0 8px 24px rgba(12,15,20,0.06)">
+        <h3>Info Kontak</h3>
+        <p style="margin:6px 0"><strong>WhatsApp:</strong> +62 xxx xxx xxx</p>
+        <p style="margin:6px 0"><strong>Email:</strong> yourtravel@email.com</p>
+        <p style="margin:6px 0"><strong>Alamat:</strong> Denpasar & Labuan Bajo</p>
+        <a class="btn primary" href="#contact">Hubungi via WA</a>
+      </aside>
+    </section>
+
+    <section id="contact" class="section">
+      <h2>Contact & Booking</h2>
+      <div style="display:grid;grid-template-columns:1fr 380px;gap:20px">
+        <form onsubmit="event.preventDefault(); alert('Form submitted! (This is a static demo — connect to backend to handle bookings)');" style="background:#fff;padding:16px;border-radius:12px;box-shadow:0 6px 20px rgba(12,15,20,0.06)">
+          <label>Nama</label>
+          <input required type="text" placeholder="Nama lengkap">
+          <label>Nomor WhatsApp</label>
+          <input required type="text" placeholder="+62">
+          <label>Jumlah Peserta</label>
+          <input required type="number" min="1" value="2">
+          <label>Pilih Paket</label>
+          <select>
+            <option>Bali 3D2N</option>
+            <option>Bali 4D3N</option>
+            <option>Honeymoon Bali</option>
+            <option>One Day Trip Komodo</option>
+            <option>Live on Board 3D2N</option>
+          </select>
+          <label>Tanggal Tour</label>
+          <input type="date">
+          <label>Catatan / Permintaan Khusus</label>
+          <textarea rows="4" placeholder="Misal: kebutuhan makanan, anniversary, dll"></textarea>
+          <button class="btn gold" type="submit" style="border:none;cursor:pointer">Kirim Booking</button>
+        </form>
+
+        <div style="background:#fff;padding:16px;border-radius:12px;box-shadow:0 6px 20px rgba(12,15,20,0.06)">
+          <h3>Kontak Cepat</h3>
+          <p style="color:var(--muted)"><strong>WhatsApp:</strong> +62 xxx xxx xxx</p>
+          <p style="color:var(--muted)"><strong>Email:</strong> yourtravel@email.com</p>
+          <p style="color:var(--muted)"><strong>Jam Operasional:</strong> 08:00 - 19:00 WITA</p>
+          <div style="margin-top:12px">
+            <a class="btn primary" href="https://wa.me/628xxxxxxxxxxx" target="_blank">Chat via WhatsApp</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    <div class="container" style="display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:16px">
+      <div>
+        <strong>Bali & Labuan Bajo Travel</strong>
+        <div style="color:var(--muted);font-size:13px">© 2025 Bali – Labuan Bajo Travel</div>
+      </div>
+      <div style="color:var(--muted);font-size:13px">Follow us: IG • TikTok • YouTube</div>
+    </div>
+  </footer>
+
+</body>
+</html>
